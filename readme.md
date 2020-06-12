@@ -51,7 +51,16 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 ## Our Architecture
 
-Insert Flowcharts of our Architecture of our proposed solution.
+### Architecture Overview
+
+IBM IoT platform is a ...
+(Insert Architecture Overview)
+
+
+
+### Component Details
+
+A step by step understanding of the different component details.
 
 
 
