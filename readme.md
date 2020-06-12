@@ -6,25 +6,13 @@ On the other hand, SCDF faces an outdated 'staging' practice which is a manual r
 
  
 
-One Paragraph of project description goes here
-
 1. README.md
     Your README.md should contain:
     a) A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing*
     c) The architecture of your proposed solution*
-    d) A hyperlink to your detailed solution* (Long description of your solution)
-    e) Project Roadmap/ Proposed timeline
     f) Getting started* (Step-by-step instructions to install the required software and how to run a demo of your solution)
     g) Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
-    h) Live demo (Link to an actual working demo/website)
-    i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc...)
     *Items marked with an asterisk are compulsory
-
-
-
-## Challenge Statement
-
-Climate change is inevitable, with projected increase in temperatures leading to phenomena such as the Urban Heat Island effect. This leads to an environment and climate where it is increasingly physically challenging for First Responders to train and operate to maximum efficiency and performance. How might SCDF leverage wearables or other technologies to provide relief or enhancement in harsh operating conditions and maximise the safety, health and performance of First Responders during training and operations?
 
 
 
@@ -38,19 +26,29 @@ LIFEWATCH is based on these features:
 4. IBM Cloud Kubernetes Service
 5. Dashboard
 
+(INSERT PICTURE HERE)
+
+
+
+## What is LIFEWATCH?
+
+Watch this video to understand what LIFEWATCH is all about and how we solve firefighters' pressing concerns. 
+
+(Attach Video Here)
+
+( attached )
+
+
+
+## Understanding LIFEWATCH in detail
+
+See (link to Detailed Solution)
+
 
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-
-
-## Understanding LIFEWATCH
-
-Our pitch video is attached below, explaining our solution: LIFEWATCH
-
-(Attach Video Here)
 
 
 
@@ -104,55 +102,85 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
+
+
+## Live Demo
+
+To understand how our product is done, please watch this live demo.
+
+(Attach video here)
+
+( attach video ) - this section is not compulsory, can cancel if not enough time.
+
+
+
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensor (rephrase)
+- [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data (rephrase)
+- [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service/) - Used to connect the data to the dashboard (rephrase)
+
+
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Please read CONTRIBUTING.md (attach later) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 
 ## Project Roadmap
 
+**LIFEWATCH currently is working on:**
+
+- ABC
+- DEF
+- GHI
+
+**LIFEWATCH is planning to work on:**
+
+- 123
+- 456
+- 789
+
+**LIFEWATCH will eventually work on:**
+
+- 123
+- 456
+- 789
+
+**FINAL GOALS:** Roll out LIFEWATCH to entire SCDF as a valuable and effective personnel management platform.
 
 
 
+## Team Name and Authors
 
-## Team Name
+**Team Name:** 
 
-**Open Sauce**
+Open Sauce
 
+**Members:**
 
+* Wang Dong Yue
 
-## Authors
+* Lim Yun Jie
 
-* **Wang Dong Yue** 
+* Yap Tzi Richard
 
-* **Lim Yun Jie**
+* Zhang Yu Feng
 
-* **Yap Tzi Richard**
-
-* **Zhang Yu Feng**
-
-* **Jeremy Ong Keng Chuan**
+* Jeremy Ong Keng Chuan
 
   
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the XXX License - see the LICENSE.md file for details. (whatever it is)
+
+
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Ye Hein Aung, friend and a Section Commander in firefighting in the SCDF
+* XXX
+* XXX
 
