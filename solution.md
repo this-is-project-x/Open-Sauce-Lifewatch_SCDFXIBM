@@ -58,7 +58,7 @@ Key Features:
 - Based on the conditions, the system will flag on the dashboard for the operations officer the current colour rating (status) of each firefighter, allowing the operations officer to make decisions.
 - The wearable will also indicate to the firefighter of his current condition and make the necessary relay to the team IC.
 
-![image-20200613005651184](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20200613005651184.png)
+![image-20200613005651184](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Warning%20Conditions.jpg)
 
 3. **Firefighters are unable to control their breathing well when stressed, and in many cases, they may use too much air</u>**
 
