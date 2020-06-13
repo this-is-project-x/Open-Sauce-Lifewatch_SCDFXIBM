@@ -112,15 +112,55 @@ For more information on each component, please refer to the contents below.
 
 ## Sensors
 
-(Description of Sensors)
+The hardware portion will be developed with Arduino (https://www.arduino.cc/en/main/software). 
+
+It will include various sensors that will measure both the external conditions of the environment and the internal conditions of the suit and the firefighter. Moreover, the gadget will include a vibration motor as a reminder for firefighters to maintain their composure and aid their breathing.
+
+We will use a controller board based on the **(what controller?)** with **(NodeMCU firmware?)**. We will attach external sensors to this controller board to gather the variables listed earlier in this file and send to the IBM IoT platform for analysis. 
+
+The sensors consist of:
+
+- External Sensors
+- Internal Mechanisms
+- Charging Mechanism
+
+
+
+( insert a picture example of the sensor)
+
+
+
+### External Sensors
+
+The external sensors are used to determine the risk of entering the environment. 
+
+**Components:**
+
+1. 
+2. 
+
+
+
+### Internal Mechanisms
+
+The internal mechanisms are used to ensure calm breathing of the firefighters.
+
+**Components:**
+
+1. 
+2. 
+
+
+
+### Charging Mechanisms
 
 
 
 
 
-## IBM Cloud
+## IBM IoT Platform
 
-(Description of Sensors)
+Register the devices and connect to the platform. Afterwards, we will set up a connection between our IoT platform and the Node-RED platform.
 
 
 
