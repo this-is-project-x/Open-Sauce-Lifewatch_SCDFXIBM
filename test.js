@@ -17,14 +17,14 @@ const { WatsonMLScoringEndpoint } = require("watson-ml-model-utils");
 // });
 
 // Example reading all values from environment
-let endpoint = new WatsonMLScoringEndpoint(['SquareFeet', 'Bedrooms']);
+let endpoint = new WatsonMLScoringEndpoint(['temp_firefighting_suit', 'heart_rate', 'external_temperature', 'external_humidity']);
 
 // Running a single prediction
-endpoint.score([2400, 4])
+endpoint.score([75, 130, 400, 84])
   .then(response => console.log(response.prediction))
   .catch(e => console.log(e));
 
 // Running multiple predictions at once
-endpoint.scoreMulti([[2400, 4], [2000, 3], [2600, 6]])
+endpoint.scoreMulti([[64, 160, 500, 74], [60, 130, 500, 95], [80, 130, 800, 84]])
   .then(response => console.log(response.predictions))
   .catch(e => console.log(e));
