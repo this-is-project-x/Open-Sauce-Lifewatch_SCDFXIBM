@@ -6,6 +6,8 @@ On the other hand, SCDF faces an outdated 'staging' practice which is a manual r
 
 
 
+
+
 ## Our Solution
 
 LIFEWATCH is based on these features:
@@ -20,16 +22,21 @@ LIFEWATCH is based on these features:
 
 
 
+
+
 ## Project Contents
 
 - [What is LIFEWATCH?](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#what-is-lifewatch)
 - [Understanding LIFEWATCH in detail](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#understanding-lifewatch-in-detail)
 - [Our Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#our-architecture)
 - [Getting Started](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#getting-started)
+- [Running Tests](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#running-tests)
 - [Contributing](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#contributing)
 - [Team Name and Authors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#team-name-and-authors)
 - [License](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#license)
 - [Acknowledgments](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#acknowledgements)
+
+
 
 
 
@@ -49,12 +56,38 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 
 
+
+
 ## Our Architecture
 
 ### Architecture Overview
 
-IBM IoT platform is a ...
+Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture) for a comprehensive explanation.
+
 (Insert Architecture Overview)
+
+
+
+Hardware: 
+
+- Wearable Sensor
+  - (Components)
+
+
+
+Cloud:
+
+- IBM Watson IoT Platform - Gathers data from the wearables
+- Node-RED - Facilitates data transfer between the ML models and the IoT platform
+- IBM Kubernetes Service - Container Service for rapid delivery of applications 
+
+(insert pictures)
+
+
+
+Client Frontend: (Dashboard)
+
+
 
 
 
@@ -100,6 +133,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 
 
+
+
 ## Running Tests
 
 Explain how to run the automated tests for this system
@@ -126,6 +161,8 @@ Give an example
 
 
 
+
+
 ## Live Demo
 
 To understand how our product is done, please watch this live demo.
@@ -133,6 +170,8 @@ To understand how our product is done, please watch this live demo.
 (Attach video here)
 
 ( attach video ) - this section is not compulsory, can cancel if not enough time.
+
+
 
 
 
@@ -144,9 +183,13 @@ To understand how our product is done, please watch this live demo.
 
 
 
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. 
+
+
 
 
 
@@ -174,6 +217,8 @@ Please read [CONTRIBUTING.md](https://github.com/this-is-project-x/Open-Sauce-Li
 
 
 
+
+
 ## Team Name and Authors
 
 **Team Name:** 
@@ -192,11 +237,16 @@ Open Sauce
 
 * Jeremy Ong Keng Chuan
 
-  
+
+
+
+
 
 ## License
 
 This project is licensed under the XXX License - see the LICENSE.md file for details. (whatever it is)
+
+
 
 
 
