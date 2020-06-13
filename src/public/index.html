@@ -34,8 +34,10 @@
     function predictFFstatusPrice() {
       updateFormOnSubmit();
       var data = {
-        squareFeet: parseInt(document.getElementById('square_feet').value),
-        numBedrooms: parseInt(document.getElementById('num_bedrooms').value),
+        Temperature_of_firefighting_suit: parseInt(document.getElementById('Temperature_of_firefighting_suit').value),
+        heart_rate: parseInt(document.getElementById('heart_rate').value),
+        External_Temperature: parseInt(document.getElementById('External_Temperature').value),
+        External_humidity: parseInt(document.getElementById('External_humidity').value),
         color: document.getElementById('color').value
       };
       // HTTP POST to /api/predictFFstatus
@@ -64,25 +66,26 @@
     <div id="header" class="row">Watson Machine Learning Scoring Demo</div>
     <div class="row">
       <div class="input-field col s12">
-        <label for="square_feet">Square Feet</label>
-        <input id="square_feet" type="number" value="2400" required>
+        <label for="Temperature_of_firefighting_suit">Temperature of firefighting suit</label>
+        <input id="Temperature_of_firefighting_suit" type="number" value="60" required>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <label for="num_bedrooms">Number of Bedrooms</label>
-        <input id="num_bedrooms" type="number" value="4" required>
+        <label for="heart_rate">Heart Rate</label>
+        <input id="heart_rate" type="number" value="128" required>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <select id="color">
-          <option value="White">White</option>
-          <option value="Brown">Brown</option>
-          <option value="Blue">Blue</option>
-          <option value="Yellow">Yellow</option>
-        </select>
-        <label for="color">Color</label>
+        <label for="External_Temperature">External Temperature</label>
+        <input id="External_Temperature" type="number" value="400" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <label for="External_humidity">External humidity</label>
+        <input id="External_humidity" type="number" value="85" required>
       </div>
     </div>
     <div class="row">
