@@ -1,11 +1,16 @@
 # LIFEWATCH - EFFECTIVELY MANAGING FIREFIGHTERS' CONDITIONS DURING EXECUTION
 
-Firefighters face many stresses in their line of work, particularly physical stresses. This poses a danger to firefighters such as heat fatigue, shortage of oxygen and light-headedness, amidst other cases, and negatively impacts the effectiveness of the firefighting operation as well as the well-being of them. 
+Firefighters face many risks in their line of work, particularly physiological stresses and hazardous risks. Hazardous risks are inherently inevitable and mitigated by sound training principles, planning, and equipment maintenance; While physiological stresses and the risks that follows can be avoided with real-time monitoring of a firefighter's vitals, and the balancing of workload within a team.
 
-On the other hand, SCDF faces an outdated 'staging' practice which is a manual rotation system, thus leading to extra manpower wastage, and potential for human error. With LIFEWATCH, we've developed a prototype platform that uses XXX (XXX TECHNOLOGIES TO BE GIVEN A SHORT EXPLANATION) to measure XXX factors. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. (MAYBE ABIT MORE ELAB)
+The extreme heat, smog, and load of equipment in firefighting precipitates as health risks during firefighting operations such as heat fatigue, and shortage of oxygen and light-headedness. In some cases, generally healthy firemen with some development of plaque in the heart may suffer from acute cardiac arrest under extreme conditions 
 
+(https://www.fsi.illinois.edu/documents/research/FFLSRC_FinalReport.pdf)
 
+These physiological risks poses a danger to not only individual firefighters, but the entire team; akin to a casualty during wartime.
 
+The SCDF utilises an outdated 'staging' practice - a rotation system that manually tracks time spent by firefighters in 'hot-zones' during training and operations. This practice ensures integrity of PPE (Personal Protective Equipment) and personnel physiological status are constantly upkept to minimise physiological stresses and risks. 
+
+However, the manual nature of this practice leads to extra manpower demands, and a potential for human error in accurately determining a firefighter's physiological state. With LIFEWATCH, we've developed a prototype platform that uses XXX (XXX TECHNOLOGIES TO BE GIVEN A SHORT EXPLANATION) to measure XXX factors. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. (MAYBE ABIT MORE ELAB)
 
 
 ## Our Solution
@@ -16,8 +21,7 @@ LIFEWATCH is based on these features:
 2. IBM IoT Platform
 3. Node-RED
 4. IBM Cloud Kubernetes Service
-5. IBM Watson Machine Learning
-6. Client Dashboard
+5. Dashboard
 
 (INSERT PICTURE HERE)
 
@@ -51,8 +55,6 @@ Watch this video to understand what LIFEWATCH is all about and how we solve fire
 
 
 
-
-
 ## Understanding LIFEWATCH in detail
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md) for a comprehensive explanation. 
@@ -82,7 +84,6 @@ Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
-- IBM Watson Machine Learning - To build ML models from the data
 - IBM Kubernetes Service - Container Service for rapid delivery of applications 
 
 (insert pictures)
@@ -90,9 +91,6 @@ Cloud:
 
 
 Client Frontend: (Dashboard)
-
-- React - For interactive UIs
-- Websockets - Connects between client and server
 
 
 
