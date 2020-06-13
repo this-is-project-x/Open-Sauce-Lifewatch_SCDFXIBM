@@ -53,6 +53,7 @@ Key Features:
 - Wearables track the physical factors of the firefighters. Such factors are:
   - Internal Conditions - Heart Rate 
   - Internal Conditions - Temperature of Firefighting Suit 
+  - Internal Conditions - Internal Humidity of Firefighting Suit
   - External Conditions - Temperature of Environment 
   - External Conditions - Humidity of Environment
 - Based on the conditions, the system will flag on the dashboard for the operations officer the current colour rating (status) of each firefighter, allowing the operations officer to make decisions.
@@ -92,6 +93,7 @@ The variables are:
 - Physical Rating of FF (Red, Yellow, Green)
   - Internal Conditions - Heart Rate 
   - Internal Conditions - Temperature of Firefighting Suit 
+  - Internal Conditions - Internal Humidity of Firefighting Suit
   - External Conditions - Temperature of Environment 
   - External Conditions - Humidity of Environment
 - Entry time and time spent in the hazard zone
