@@ -31,14 +31,14 @@
       document.getElementById('prediction').style.display = 'block';
       document.getElementById('submit').disabled = false;
     }
-    function predictHousePrice() {
+    function predictFFstatusPrice() {
       updateFormOnSubmit();
       var data = {
         squareFeet: parseInt(document.getElementById('square_feet').value),
         numBedrooms: parseInt(document.getElementById('num_bedrooms').value),
         color: document.getElementById('color').value
       };
-      // HTTP POST to /api/predictHousePrice
+      // HTTP POST to /api/predictFFstatus
       var xhr = new XMLHttpRequest();
       xhr.open('POST', '/api/predictFFstatus', true);
       xhr.setRequestHeader('Content-Type', 'application/json');
@@ -52,7 +52,7 @@
     }
     function bodyLoaded() {
       document.getElementById('submit').onclick = function () {
-        predictHousePrice();
+        predictFFstatusPrice();
         return false;
       }
     }

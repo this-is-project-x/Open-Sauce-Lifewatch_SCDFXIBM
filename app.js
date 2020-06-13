@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 // load env vars
 require('dotenv').config();
 
-const api = require('./routes/api');
+const api = require('./src/routes/api');
 const app = express();
 const appEnv = cfenv.getAppEnv();
 const http = require('http').Server(app);
