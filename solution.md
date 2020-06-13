@@ -11,7 +11,7 @@ These problems include:
 2. **<u>Constant training incidents of heat fatigue in the SCDF</u>**
    - According to anecdotal evidence, it is common to see personnel suffering from heat fatigue and having to visit the hospital during training sessions, a lot due to the lack of effective management of personnel.
 3. **<u>Firefighters are unable to control their breathing well when stressed, and in many cases, they may use too much air</u>**
-   - This is a problem because firefighters use air cylinders with a 45min period of effectiveness before they have to rotate with other personnel due to air shortages. They may end up having a shortage of oxygen before the 45min period due to constant breathing, thus posing a hazard for the firefighter.
+   - This is a problem because firefighters use air cylinders with a 45min period of effectiveness before they have to rotate with other personnel due to air shortages. They may end up having a shortage of oxygen before the 45min period due to constant breathing, thus posing a hazard for the firefighter.  
 
 
 
@@ -60,7 +60,9 @@ Key Features:
 
 ![image-20200613005651184](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Warning%20Conditions.jpg)
 
-3. **Firefighters are unable to control their breathing well when stressed, and in many cases, they may use too much air</u>**
+
+
+3. **Firefighters are unable to control their breathing well when stressed, and in many cases, they may use too much air**
 
 **OUR SOLUTION:**
 
@@ -104,9 +106,7 @@ For more information on each component, please refer to the contents below.
 - [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
 - [IBM Cloud](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-cloud)
 - [Our Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
-- [Putting It All Together](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#putting-it-all-together)
-
-
+- [Putting It All Together](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#putting-it-all-together)  
 
 
 
@@ -136,8 +136,8 @@ The external sensors are used to determine the risk of entering the environment.
 
 **Components:**
 
-1. 
-2. 
+1. ABC
+2. DEF
 
 
 
@@ -147,38 +147,42 @@ The internal mechanisms are used to ensure calm breathing of the firefighters.
 
 **Components:**
 
-1. 
-2. 
+1. ABC
+2. DEF
 
 
 
 ### Charging Mechanisms
 
+We use a portable USB battery and **(how do we charge it?)**
 
+
+
+### Connecting to IBM IoT
+
+We will have a code that makes it possible to read these metrics and forward these to the platform using Arduino.
+
+(if we have a code, insert code link here)  
 
 
 
 ## IBM IoT Platform
 
-Register the devices and connect to the platform. Afterwards, we will set up a connection between our IoT platform and the Node-RED platform.
+Register the devices and connect to the platform. Afterwards, we will set up a connection between our IoT platform and the Node-RED platform. 
 
-
+Our IoT platform will collect the necessary data from the sensors.  
 
 
 
 ## Our Architecture
 
-(Insert how the entire architecture works with each other)
-
-
+(Insert how the entire architecture works with each other)  
 
 
 
 ## Putting It All Together
 
-(Explain how everything comes together in a Tl;dr)
-
-
+(Explain how everything comes together in a Tl;dr)  
 
 
 
