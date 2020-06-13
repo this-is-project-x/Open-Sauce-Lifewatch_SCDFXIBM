@@ -91,7 +91,7 @@ Key Features:
 
 
 
-## Understanding LIFEWATCH in detail
+## Our Architecture
 
 See (link to Detailed Solution)
 
