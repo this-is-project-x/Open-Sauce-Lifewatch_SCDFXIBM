@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+    
+h2 {
+  font-weight: bold;
+  color: black;
+  margin: 1%;  
+  font-size: 50px;
+}
+    
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #7CAAF9;
+  color: black;
+  font-size: 30px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>LIFEWATCH DASHBOARD</h1>
+  <p>Statuses of Active Personnel</p>
+</div>
+
+<h2 style = 'text-align: left'>Team 1</h2>
+
+
+<!-- Team 1 -->
+
+<!-- Jessica Team 1 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jessica Low</h1>
+      <p class="name">2nd Lieutenant</p>
+      <p class="title">Team IC, Team 1</p>
+      <p>Status: <p style="color:green;">GREEN</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jessica Low</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div>
+    
+    
+<!-- Jaime Team 1 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jaime Lim</h1>
+      <p class="name">3rd Sergeant</p>
+      <p class="title">Firefighter 1, Team 1</p>
+      <p>Status: <p style="color:orange;">YELLOW</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jaime Lim</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div>
+
+<!-- Jasmine Team 1 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jasmine Lee</h1>
+      <p class="name">Corporal</p>
+      <p class="title">Firefighter 2, Team 1</p>
+      <p>Status: <p style="color:orange;">YELLOW</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jasmine Lee</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div> 
+    
+<!-- Team 2 -->   
+
+<h2 style = 'text-align: left'>Team 2</h2>
+    
+<!-- Jessica Team 2 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jessica Low</h1>
+      <p class="name">2nd Lieutenant</p>
+      <p class="title">Team IC, Team 2</p>
+      <p>Status: <p style="color:red;">RED</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jessica Low</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div>
+    
+    
+<!-- Jaime Team 2 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jaime Lim</h1>
+      <p class="name">3rd Sergeant</p>
+      <p class="title">Firefighter 1, Team 2</p>
+      <p>Status: <p style="color:orange;">YELLOW</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jaime Lim</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div>
+
+<!-- Jasmine Team 2 -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 50%">
+      <h1>Jasmine Lee</h1>
+      <p class="name">Corporal</p>
+      <p class="title">Firefighter 2, Team 2</p>
+      <p>Status: <p style="color:green;">GREEN</p>
+    </div>
+    <div class="flip-card-back">
+      <h1>Jasmine Lee</h1> 
+      <p>Time Spent: 45 min</p>
+      <p>Heart Rate: 125</p>
+      <p>HRV: 55</p>
+      <p>Temperature: 38.2</p> 
+      <p>Humidity: 125</p>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
