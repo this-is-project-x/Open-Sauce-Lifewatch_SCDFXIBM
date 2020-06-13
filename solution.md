@@ -118,11 +118,12 @@ The hardware portion will be developed with Arduino (https://www.arduino.cc/en/m
 
 It will include various sensors that will measure both the external conditions of the environment and the internal conditions of the suit and the firefighter. Moreover, the gadget will include a vibration motor as a reminder for firefighters to maintain their composure and aid their breathing.
 
-We will use a controller board based on the **(what controller?)** with **(NodeMCU firmware?)**. We will attach external sensors to this controller board to gather the variables listed earlier in this file and send to the IBM IoT platform for analysis. 
+We will use a controller board based on the ESP32 micro-controller with NodeMCU firmware. We will attach external sensors to this controller board to gather the variables listed earlier in this file and send to the IBM IoT platform for analysis. 
 
 The sensors consist of:
 
 - External Sensors
+- Internal Sensors
 - Internal Mechanisms
 - Charging Mechanism
 
@@ -138,9 +139,37 @@ The external sensors are used to determine the risk of entering the environment.
 
 **Components:**
 
-1. ABC
-2. DEF
+1. Temperature
+Sensor - MAX6675 Cold-Junction-Compensated K-Thermocoupleto-Digital Converter
+Rationale for choosing this sensor - Allows for high temperature readings of up to 1024°C. Temperatures inside of the building can reach up to 700°C, so the sensor needs to accommodate for the drastic temperatures.
+Link to sensor - https://www.maximintegrated.com/en/products/sensors/MAX6675.html
 
+2. Humidity
+Sensor - Humidity and Temperature Sensor DHT11
+Rationale for choosing this sensor - Allows for a wide range of RH reading (20% to 90% with ±5% RH)
+Link to sensor - https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b
+
+
+### Internal Sensors
+
+The internal sensors are used to determine the conditions of the firefighter.
+
+**Components:**
+
+1. Heart Rate
+Sensor - MAX30100 Pulse Oximeter and Heart Rate Sensor
+Rationale for choosing this sensor - Uses pulse oximetry to determine the heart rate of the firefighter
+Link to sensor - https://how2electronics.com/interfacing-max30100-pulse-oximeter-sensor-arduino/
+
+2. Humidity
+Sensor - Humidity and Temperature Sensor DHT11
+Rationale for choosing this sensor - Allows for a wide range of RH reading (20% to 90% with ±5% RH)
+Link to sensor - https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b
+
+3. Temperature
+Sensor - LMD35DZ
+Rationale for choosing this sensor - Accurate linear temperature sensor
+Link to sensor - https://randomnerdtutorials.com/arduino-lm35-lm335-lm34-temperature-sensor/
 
 
 ### Internal Mechanisms
@@ -149,14 +178,34 @@ The internal mechanisms are used to ensure calm breathing of the firefighters.
 
 **Components:**
 
-1. ABC
-2. DEF
+1. Heart Rate Variability (HRV)
+Sensor - MAX30100 Pulse Oximeter and Heart Rate Sensor
+Rationale for choosing this sensor - Uses pulse oximetry to determine the heart rate of the firefighter. The HRV can then be computed from the heart rate.
+Link to sensor - https://how2electronics.com/interfacing-max30100-pulse-oximeter-sensor-arduino/
+
+2. Vibration Motor
+Device - ROB-08449
+Rationale for choosing this sensor - Acts as a non-audible indicator that can notify the firefighter if their HRV is not ideal. It can then simulate the ideal breathing pace for the firefighter to regain their breathing
+Link to motor - https://www.sparkfun.com/products/8449
+
 
 
 
 ### Charging Mechanisms
 
-We use a portable USB battery and **(how do we charge it?)**
+We use a portable lithium ion polymer (LiPo) battery with a JST plug that can be charged with a corresponding LiPo charger that has a USB plug.
+
+**Components:**
+
+1. LiPo Battery
+Battery - Lithium Ion Polymer Battery - 3.7V 100mAh
+Rationale - Small enough to be included in a portable wearable diagnostic and is able to last for at least 2 hours.
+Link to battery - https://www.adafruit.com/product/1570
+
+2. LiPo Charger
+Charger - Adafruit Micro LiPo - USB LiPoly Charger
+Rationale - The corresponding charger for the LiPo Battery
+Link to charger - https://www.adafruit.com/product/1304
 
 
 
