@@ -6,9 +6,11 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
+  margin: 13.5%;
+  float: left;
   text-align: center;
   font-family: arial;
+  padding: 101px
 }
 
 .header {
@@ -18,7 +20,7 @@
   color: black;
   font-size: 30px;
 }
-       
+    
 .title {
   color: grey;
   font-size: 18px;
@@ -50,28 +52,44 @@ button:hover, a:hover {
 </head>
 <body>
 
-
 <div class="header">
   <h1>LIFEWATCH DASHBOARD</h1>
   <p>Statuses of Active Personnel</p>
 </div>
     
-    
 <div class="card">
   <img src="images\Ask Jamie.png" alt="Jamie" style="width:100%">
   <h1>Jamie Lee</h1>
-  <p class="name">Captain, Jamie</p>
+  <p class="name">Captain</p>
   <p class="title">Firefighter 1, Team 1</p>
-  <p>Status: RED</p>
+  <p>Status: <p style="color:red;">RED</p>
 </div>
   
 <div class="card">
   <img src="images\Ask Jamie.png" alt="Jamie" style="width:100%">
-  <h1>Jamie Lee</h1>
-  <p class="name">Captain, Jamie</p>
+  <h1>Jackie</h1>
+  <p class="name">3rd Sergeant</p>
   <p class="title">Firefighter 2, Team 1</p>
-  <p>Status: YELLOW</p>
+  <p>Status: <p style="color:green;">GREEN</p>
 </div>
+
+
+<div class="card">
+  <img src="images\Ask Jamie.png" alt="Jamie" style="width:100%">
+  <h1>Jessica</h1>
+  <p class="name">Lieutenant</p>
+  <p class="title">Firefighter 1, Team 2</p>
+  <p>Status: <p style="color:orange;">ORANGE</p>
+</div>
+
+<div class="card">
+  <img src="images\Ask Jamie.png" alt="Jamie" style="width:100%">
+  <h1>Jasmine</h1>
+  <p class="name">Major</p>
+  <p class="title">Firefighter 2, Team 2</p>
+  <p>Status: <p style="color:red;">RED</p>
+</div>
+
 
 </body>
 </html>
