@@ -13,6 +13,7 @@ The SCDF utilises an outdated 'staging' practice - a rotation system that manual
 However, the manual nature of this practice leads to extra manpower demands, and a potential for human error in accurately determining a firefighter's physiological state. With LIFEWATCH, we've developed a prototype platform that uses XXX (XXX TECHNOLOGIES TO BE GIVEN A SHORT EXPLANATION) to measure XXX factors. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. (MAYBE ABIT MORE ELAB)
 
 
+
 ## Our Solution
 
 LIFEWATCH is based on these features:
@@ -55,6 +56,8 @@ Watch this video to understand what LIFEWATCH is all about and how we solve fire
 
 
 
+
+
 ## Understanding LIFEWATCH in detail
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md) for a comprehensive explanation. 
@@ -71,7 +74,11 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 (Insert Architecture Overview)
 
+( attached picture )
 
+
+
+### Components
 
 Hardware: 
 
