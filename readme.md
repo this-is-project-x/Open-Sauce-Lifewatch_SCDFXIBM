@@ -16,7 +16,8 @@ LIFEWATCH is based on these features:
 2. IBM IoT Platform
 3. Node-RED
 4. IBM Cloud Kubernetes Service
-5. Dashboard
+5. IBM Watson Machine Learning
+6. Client Dashboard
 
 (INSERT PICTURE HERE)
 
@@ -50,6 +51,8 @@ Watch this video to understand what LIFEWATCH is all about and how we solve fire
 
 
 
+
+
 ## Understanding LIFEWATCH in detail
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md) for a comprehensive explanation. 
@@ -79,6 +82,7 @@ Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
+- IBM Watson Machine Learning - To build ML models from the data
 - IBM Kubernetes Service - Container Service for rapid delivery of applications 
 
 (insert pictures)
@@ -86,6 +90,9 @@ Cloud:
 
 
 Client Frontend: (Dashboard)
+
+- React - For interactive UIs
+- Websockets - Connects between client and server
 
 
 
