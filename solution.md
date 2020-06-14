@@ -107,6 +107,7 @@ For more information on each component, please refer to the contents below.
 
 - [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
 - [IBM Cloud](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-cloud)
+- [Node-RED](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#node-red)
 - [Our Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
 - [Putting It All Together](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#putting-it-all-together)  
 
@@ -223,6 +224,9 @@ Register the devices and connect to the platform. Afterwards, we will set up a c
 
 Our IoT platform will collect the necessary data from the sensors.  
 
+## Node-RED
+![nodered1](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%201.png)
+![nodered2](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%202.png)
 
 
 ## Our Architecture
