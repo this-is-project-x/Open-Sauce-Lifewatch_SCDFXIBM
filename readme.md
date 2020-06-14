@@ -74,7 +74,7 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 (Insert Architecture Overview)
 
-( attached picture )
+![Architecture](https://user-images.githubusercontent.com/64407066/84582841-dfcc0680-ae23-11ea-8828-ed2ade58e7b4.png)
 
 
 
