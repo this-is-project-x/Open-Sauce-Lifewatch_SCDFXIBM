@@ -195,15 +195,6 @@ Before you can run tests, you need to set up a MySQL database server locally.
 7) Click on timestamp to run the test
 
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
 
 ## Built With
 
