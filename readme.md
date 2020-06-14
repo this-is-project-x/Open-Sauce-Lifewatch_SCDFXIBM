@@ -49,7 +49,7 @@ LIFEWATCH is based on these features:
 
 Watch this video to understand what LIFEWATCH is all about and how we solve firefighters' pressing concerns. 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=4PYsbXVBx9g&feature=youtu.be)
+[![Watch the video](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/YoutubeVideo%20template.png)](https://www.youtube.com/watch?v=4PYsbXVBx9g&feature=youtu.be)
 
 
 
@@ -274,6 +274,5 @@ Open Sauce
 ## Acknowledgments
 
 * Ye Hein Aung, friend and a Section Commander in firefighting in the SCDF
-* XXX
-* XXX
+
 
