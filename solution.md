@@ -214,7 +214,9 @@ Our IoT platform will collect the necessary data from the sensors, and forward t
 
 ## Node-RED
 ![nodered1](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%201.png)
+This is the main flow. The timestamp is first inputted through red-node. In the initialisation node, it initialises key variables need to implement the machine learning model on ibm watson. The key variables are content-type,accept,authorisation and ml-instance id. The payload variables are also initialised here. The third node is the machine learning model. The forth node extract the output of the machine learning model and inputs it together with the sensor inputs to the final node. The final node outputs it to the frontend server.
 ![nodered2](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%202.png)
+The is the secondary flow that is used to obtained the iam-key which is needed to access the ibm watson machine learning model remotely.
 
 (include description)
 
@@ -222,10 +224,11 @@ Our IoT platform will collect the necessary data from the sensors, and forward t
 
 ## IBM Machine Learning
 
-(include description)
+The IBM Machine Learning model uses a XGB Classifier and uses 1st hyperparameter optimization.
 
-(include picture)
+![ibm machine learning](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/ibm%20machine%20learning.png)
 
+The feature importance is 0.5 for temp_firefighting_suit, 0.37 for external temperature, 0.13 for heart rate but 0 for external humidity. This is due to the limited data that is used to train the model where external humidity is very closely correlated with external temperature. To improve on this model, more and diverse data is recommended to improve the model.
 
 
 ## Dashboard

@@ -10,8 +10,7 @@ These physiological risks poses a danger to not only individual firefighters, bu
 
 The SCDF utilises an outdated 'staging' practice - a rotation system that manually tracks time spent by firefighters in 'hot-zones' during training and operations. This practice ensures integrity of PPE (Personal Protective Equipment) and personnel physiological status are constantly upkept to minimise physiological stresses and risks. 
 
-However, the manual nature of this practice leads to extra manpower demands, and a potential for human error in accurately determining a firefighter's physiological state. With LIFEWATCH, we've developed a prototype platform that uses XXX (XXX TECHNOLOGIES TO BE GIVEN A SHORT EXPLANATION) to measure XXX factors. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. (MAYBE ABIT MORE ELAB)
-
+However, the manual nature of this practice leads to extra manpower demands, and a potential for human error in accurately determining a firefighter's physiological state. With LIFEWATCH, we've developed a prototype platform that uses IoT and Arduino software to measure both external and internal factors. These factors include the humidity and temperature of the suit and the environment, as well as the heart rate of the firefighter. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. 
 
 
 ## Our Solution
@@ -49,9 +48,7 @@ LIFEWATCH is based on these features:
 
 Watch this video to understand what LIFEWATCH is all about and how we solve firefighters' pressing concerns. 
 
-(Attach Video Here)
-
-( attached )
+[![Watch the video](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/YoutubeVideo%20template.png)](https://www.youtube.com/watch?v=4PYsbXVBx9g&feature=youtu.be)
 
 
 
@@ -71,7 +68,8 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture) for a comprehensive explanation.
 
-![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
+![Software Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Software%20Architecture.jpg)
+
 
 
 
@@ -100,6 +98,7 @@ Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
+- MYSQL Database - Collects values from ML Models into a database to be queried 
 
 
 
@@ -114,7 +113,7 @@ Client Frontend:
 
 ### Component Details
 
-A step by step understanding of the different component details can be found in [solution.md]((https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solutions:)
+A step by step understanding of the different component details can be found in [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solutions:)
 
 
 
@@ -276,6 +275,5 @@ Open Sauce
 ## Acknowledgments
 
 * Ye Hein Aung, friend and a Section Commander in firefighting in the SCDF
-* XXX
-* XXX
+
 
