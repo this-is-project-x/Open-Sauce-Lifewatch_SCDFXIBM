@@ -71,7 +71,8 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture) for a comprehensive explanation.
 
-![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
+![Software Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Software%20Architecture.jpg)
+
 
 
 
