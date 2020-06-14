@@ -71,9 +71,7 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture) for a comprehensive explanation.
 
-(Insert Architecture Overview)
-
-( attached picture )
+![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
 
 
@@ -81,22 +79,34 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Hardware: 
 
-- Wearable Sensor
-  - (Components)
+- External Sensors
+  - MAX6675 Cold-Junction-Compensated K-Thermocoupleto-Digital Converter
+  - Humidity and Temperature Sensor DHT11
+  
+- Internal Sensors
+  - MAX30100 Pulse Oximeter and Heart Rate Sensor
+  - Humidity and Temperature Sensor DHT11
+  - LMD35DZ
 
+- Internal Mechanism
+  - ROB-08449
+
+- Charging Mechanism
+  - Lithium Ion Polymer Battery - 3.7V 100mAh
+  - Adafruit Micro LiPo - USB LiPoly Charger
 
 
 Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
-- IBM Kubernetes Service - Container Service for rapid delivery of applications 
-
-(insert pictures)
 
 
 
-Client Frontend: (Dashboard)
+
+Client Frontend:
+
+![Dashboard pic](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Dashboard%20Image.jpg)
 
 
 
@@ -114,12 +124,12 @@ These instructions will get you a copy of our project up and running on your loc
 
 
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+### Software Prerequisites
 
 ```
-Give examples
+1) [Node Red](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
+2) [IBM Watson IOT](https://www.ibm.com/cloud/watson-iot-platform)
+3) [IBM Cloud Machine Learning](https://www.ibm.com/cloud/machine-learning)
 ```
 
 
@@ -128,22 +138,21 @@ Give examples
 
 A step by step series of examples that tell you how to get a development environment running
 
-Say what the step will be
+**Node Red**
 
 ```
-Give the example
+Nodes to install:
+- node-red-contrib-scx-ibmiotapp
+- node-red-node-mysql
 ```
 
-And repeat
+**IBM Watson IOT**
 
-```
-until finished
-```
+Register the new devices to the platform and create a connection between the IoT platform and the Node-RED application.
 
-End with an example of getting some data out of the system or using it for a little demo
+**IBM Cloud Machine Learning**
 
-
-
+[Create an autoAI experiment](https://iraangeles-ibm.github.io/SCDF-INNOVATION-CHALLENGE/Workshop_Watsion_Studio/AutoAI.html)
 
 
 ## Running Tests
@@ -172,25 +181,10 @@ Give an example
 
 
 
-
-
-## Live Demo
-
-To understand how our product is done, please watch this live demo.
-
-(Attach video here)
-
-( attach video ) - this section is not compulsory, can cancel if not enough time.
-
-
-
-
-
 ## Built With
 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensor (rephrase)
 - [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data (rephrase)
-- [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service/) - Used to connect the data to the dashboard (rephrase)
 
 
 
@@ -208,21 +202,21 @@ Please read [CONTRIBUTING.md](https://github.com/this-is-project-x/Open-Sauce-Li
 
 **LIFEWATCH currently is working on:**
 
-- ABC
-- DEF
-- GHI
+- Collecting the humidity and temperature of both the suit and the environment, as well as the heart rate of the firefighters
+- Using the data to train and improve our machine learning model to better predict when to rotate the firefighters
+- Building up a database for analyzing firefighters' performance during missions and trainings
+- Testing the integrity of the sensors under extreme conditions
 
 **LIFEWATCH is planning to work on:**
 
-- 123
-- 456
-- 789
+- Exploring additional hardware options to improve the funcationality and performance of the devices
+- Monitoring other types of data using additional sensors or wearables
+- Improve the type and volume of information available in the dashboard
 
 **LIFEWATCH will eventually work on:**
 
-- 123
-- 456
-- 789
+- Wider distribution of LIFEWATCH to other forces in Singapore (i.e. SAF, SPF and RSN)
+- Explore possibility of having an offline system
 
 **FINAL GOALS:** Roll out LIFEWATCH to entire SCDF as a valuable and effective personnel management platform.
 
