@@ -115,12 +115,12 @@ These instructions will get you a copy of our project up and running on your loc
 
 
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+### Software Prerequisites
 
 ```
-Give examples
+1) [Node Red](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
+2) [IBM Watson IOT](https://www.ibm.com/cloud/watson-iot-platform)
+3) [IBM Cloud Machine Learning](https://www.ibm.com/cloud/machine-learning)
 ```
 
 
@@ -129,22 +129,24 @@ Give examples
 
 A step by step series of examples that tell you how to get a development environment running
 
-Say what the step will be
+**Node Red**
 
 ```
-Give the example
+Nodes to install:
+- node-red-contrib-scx-ibmiotapp
+- node-red-node-mysql
 ```
 
-And repeat
+**IBM Watson IOT**
 
 ```
-until finished
+Register the new devices to the platform and create a connection between the IoT platform and the Node-RED application.
 ```
+**IBM Cloud Machine Learning**
 
-End with an example of getting some data out of the system or using it for a little demo
-
-
-
+```
+[Create an autoAI experiment](https://iraangeles-ibm.github.io/SCDF-INNOVATION-CHALLENGE/Workshop_Watsion_Studio/AutoAI.html)
+```
 
 
 ## Running Tests
