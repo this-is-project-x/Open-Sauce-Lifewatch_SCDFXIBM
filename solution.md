@@ -253,7 +253,7 @@ A hardcoded prototype can be found here: [DASHBOARD.PROTOTYPE](file:///C:/Users/
 
 ## Our Architecture
 
-![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
+![Software Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Software%20Architecture.jpg)
 
 As can be seen, we use a variety of services to perform our core functions. Putting it all together, this is how the different components of our product work together as a map. 
 
