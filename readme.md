@@ -6,7 +6,7 @@ Firefighters face many risks in their line of work, particularly physiological s
 
 The extreme heat, smog, and load of equipment in firefighting precipitates as health risks during firefighting operations such as heat fatigue, and shortage of oxygen and light-headedness. In some cases, generally healthy firemen with some development of plaque in the heart may suffer from acute cardiac arrest under extreme conditions 
 
-(https://www.fsi.illinois.edu/documents/research/FFLSRC_FinalReport.pdf)
+University of Illinois effects of Heat Stress in Firefighters: (https://www.fsi.illinois.edu/documents/research/FFLSRC_FinalReport.pdf)
 
 These physiological risks poses a danger to not only individual firefighters, but the entire team; akin to a casualty during wartime.
 
