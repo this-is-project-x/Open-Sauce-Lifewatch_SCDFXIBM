@@ -108,7 +108,9 @@ Cloud:
 
 
 
-Client Frontend: (Dashboard)
+Client Frontend:
+
+![Dashboard pic](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Dashboard%20Image.jpg)
 
 
 
