@@ -10,7 +10,7 @@ University of Illinois effects of Heat Stress in Firefighters: (https://www.fsi.
 
 These physiological risks poses a danger to not only individual firefighters, but the entire team; akin to a casualty during wartime.
 
-The SCDF utilises an outdated 'staging' practice - a rotation system that manually tracks time spent by firefighters in 'hot-zones' during training and operations. This practice ensures integrity of PPE (Personal Protective Equipment) and personnel physiological status are constantly upkept to minimise physiological stresses and risks. 
+At the same time, SCDF utilises an outdated 'staging' practice - a rotation system that manually tracks time spent by firefighters in 'hot-zones' during training and operations. This practice ensures integrity of PPE (Personal Protective Equipment) and personnel physiological status are constantly upkept to minimise physiological stresses and risks. 
 
 However, the manual nature of this practice leads to extra manpower demands, and a potential for human error in accurately determining a firefighter's physiological state. With LIFEWATCH, we've developed a prototype platform that uses IoT and Arduino software to measure both external and internal factors. These factors include the humidity and temperature of the suit and the environment, as well as the heart rate of the firefighter. This data is then used by a machine learning algorithm to predict the current physical condition of the firefighter and the need to withdraw the firefighter from the scene, all automated, no human error. 
 
@@ -179,19 +179,10 @@ Register the new devices to the platform and create a connection between the IoT
 [Create an autoAI experiment](https://iraangeles-ibm.github.io/SCDF-INNOVATION-CHALLENGE/Workshop_Watsion_Studio/AutoAI.html)
 
 
+
 ## Running Tests
 
-Explain how to run the automated tests for this system
-
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Refer to [OUR SOLUTION](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solution) and the relevant contents of each components and how it works. 
 
 
 
@@ -200,7 +191,6 @@ Give an example
 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensors
 - [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data
-
 
 
 
