@@ -49,7 +49,7 @@ LIFEWATCH is based on these features:
 
 Watch this video to understand what LIFEWATCH is all about and how we solve firefighters' pressing concerns. 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/4PYsbXVBx9g)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=4PYsbXVBx9g&feature=youtu.be)
 
 
 
@@ -99,6 +99,7 @@ Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
+- MYSQL Database - Collects values from ML Models into a database to be queried 
 
 
 
