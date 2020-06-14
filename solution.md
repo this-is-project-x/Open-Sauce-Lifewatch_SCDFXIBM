@@ -23,9 +23,7 @@ We propose the usage of IoT to tackle the 3 problems highlighted above.
 
 1. <u>**SCDF uses an outdated practice - ‘Staging’ - within the Rota system (rotation system)**</u>
 
-**OUR SOLUTION:**
-
-We propose that the rotation system needs to be better automated to reduce human error of tracking and recording timing of firefighters, and to provide a more accurate judgement of the conditions of the personnel. 
+Solution: We propose that the rotation system needs to be better automated to reduce human error of tracking and recording timing of firefighters, and to provide a more accurate judgement of the conditions of the personnel. 
 
 Thus, we propose a platform that can track the entry and exit timing of each firefighter using wearable technology.
 
@@ -39,9 +37,7 @@ Key Features:
 
 2. **<u>Constant training incidents of heat fatigue in the SCDF</u>**
 
-**OUR SOLUTION:**
-
-We propose that the wearable technology proposed earlier be able to give an accurate judgement of the conditions of the personnel. We should use variables such as heart rate which can be detected by wearables to determine the current physical condition of the individual, and give a rating for the physical condition.
+Solution: We propose that the wearable technology proposed earlier be able to give an accurate judgement of the conditions of the personnel. We should use variables such as heart rate which can be detected by wearables to determine the current physical condition of the individual, and give a rating for the physical condition.
 
 This rating should be used by operations officers to determine to rotate personnel more effectively.
 
@@ -65,9 +61,7 @@ Key Features:
 
 3. **Firefighters are unable to control their breathing well when stressed, and in many cases, they may use too much air**
 
-**OUR SOLUTION:**
-
-We propose that wearables track the breathing frequency of the firefighters through the heart rate variability (HRV), and send reminders to them when they have erratic breathing patterns. 
+Solution: We propose that wearables track the breathing frequency of the firefighters through the heart rate variability (HRV), and send reminders to them when they have erratic breathing patterns. 
 
 This will allow firefighters to control their breathing, conserve air and a lower potential of light headedness.
 
@@ -77,8 +71,6 @@ Key Features:
 
 - Wearables are activated when FF begins breathing from oxygen tank.
 - Wearables track the HRV of the FF and send timely reminder through a beep to the FF to control his breathing if HRV hits past a certain threshold value. 
-
-
 
 
 
@@ -106,9 +98,9 @@ For more information on each component, please refer to the contents below.
 - [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
 - [IBM IoT Platform](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-iot-platform)
 - [Node-RED](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#node-red)
+- [IBM Machine Learning](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-machine-learning)
 - [Dashboard](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#dashboard)
 - [Our Architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
-- [Putting It All Together](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#putting-it-all-together)  
 
 
 
@@ -210,31 +202,53 @@ We use a portable lithium ion polymer (LiPo) battery with a JST plug that can be
 
 We will have a code that makes it possible to read these metrics and forward these to the platform using Arduino.
 
-(if we have a code, insert code link here)  
-
 
 
 ## IBM IoT Platform
 
 Register the devices and connect to the platform. Afterwards, we will set up a connection between our IoT platform and the Node-RED platform. 
 
-Our IoT platform will collect the necessary data from the sensors.  
+Our IoT platform will collect the necessary data from the sensors, and forward these via our backend infrastructure to the IBM Watson Machine Learning Model for analysis.
+
+
 
 ## Node-RED
 ![nodered1](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%201.png)
 ![nodered2](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/node%20red%202.png)
 
+(include description)
+
+
+
+## IBM Machine Learning
+
+(include description)
+
+(include picture)
+
+
+
 ## Dashboard
+
+![dashboard](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/Dashboard%20Image.jpg)
+
+The client is a web browser that supports JavaScript as a basic backend to retrieve data from the servers and displays the firefighters' statuses in operation. 
+
+We will retrieve values from the backend infrastructure, and display it on the client-side dashboard as such. The webpage will be split into the different teams, with each team being assigned the respective team members. 
+
+Each 'profile card' in the dashboard represents 1 team member, and it includes several features. The profile card displays the individual's name, photo, rank, team role and their physical status, from red to yellow to green. 
+
+Within our 'profile cards', we also allow operators the ability to flip these cards, using a responsive dashboard that can flip when someone hovers over the 'profile cards'. With the other side of the profile cards, we will detail down the detailed status of the individual, with the raw data of his conditions as well as the environmental conditions as obtained from the sensors, to give operators and officers a better viewpoint of the relevant actions to be taken.
+
+A hardcoded prototype can be found here: [DASHBOARD.PROTOTYPE](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/src/dashboard-prototype.html)
+
+
 
 ## Our Architecture
 
 ![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
-
-
-## Putting It All Together
-
-(Explain how everything comes together in a Tl;dr)  
+As can be seen, we use a variety of services to perform our core functions. Putting it all together, this is how the different components of our product work together as a map. 
 
 
 
