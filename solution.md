@@ -226,9 +226,10 @@ The is the secondary flow that is used to obtained the iam-key which is needed t
 
 The IBM Machine Learning model uses a XGB Classifier and uses 1st hyperparameter optimization.
 
+The data that we used for the four variables are randomly generated.
 ![ibm machine learning](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/ibm%20machine%20learning.png)
 
-The feature importance is 0.5 for temp_firefighting_suit, 0.37 for external temperature, 0.13 for heart rate but 0 for external humidity. This is due to the limited data that is used to train the model where external humidity is very closely correlated with external temperature. To improve on this model, more and diverse data is recommended to improve the model.
+The feature importance is 0.5 for temp_firefighting_suit, 0.37 for external temperature, 0.13 for heart rate but 0 for external humidity. This is due to the limited data that is used to train the model where external humidity is very closely correlated with external temperature. In the future, more and diverse data should be used to improve the model.
 
 
 ## Dashboard
