@@ -99,9 +99,7 @@ The variables are:
 - Entry time and time spent in the hazard zone
 - Heart Rate Variability
 
-These variables are to be measured by a sensor. 
-
-(Description of the solution)
+These variables are to be measured by sensors. 
 
 For more information on each component, please refer to the contents below. 
 
@@ -128,9 +126,6 @@ The sensors consist of:
 - Internal Mechanisms
 - Charging Mechanism
 
-
-
-( insert a picture example of the sensor)
 
 
 
