@@ -191,6 +191,8 @@ Refer to [OUR SOLUTION](https://github.com/this-is-project-x/Open-Sauce-Lifewatc
 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensors
 - [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data
+- [MySQL Database](https://www.mysql.com/) - Retrieve data from the ML models into a database to be queried by the web service for the client-side dashboard.
+- [IBM Machine Learning](https://www.ibm.com/sg-en/cloud/machine-learning) - Used for building tests to analyze the conditions and give a relevant physical rating. 
 
 
 
