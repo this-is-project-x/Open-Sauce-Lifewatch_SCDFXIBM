@@ -1,4 +1,4 @@
-# Solution
+﻿# Solution
 
 ## The Problem:
 
@@ -240,8 +240,7 @@ Each 'profile card' in the dashboard represents 1 team member, and it includes s
 
 Within our 'profile cards', we also allow operators the ability to flip these cards, using a responsive dashboard that can flip when someone hovers over the 'profile cards'. With the other side of the profile cards, we will detail down the detailed status of the individual, with the raw data of his conditions as well as the environmental conditions as obtained from the sensors, to give operators and officers a better viewpoint of the relevant actions to be taken.
 
-A hardcoded prototype can be found here: [DASHBOARD.PROTOTYPE](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/src/dashboard-prototype.html)
-
+A hardcoded prototype can be found here: [DASHBOARD.PROTOTYPE](file:///C:/Users/Admin/OneDrive/Documents/Yale-NUS/Hackathons/Open-Sauce-Lifewatch_SCDFXIBM/src/dashboard-hardcoded.html)
 
 
 ## Our Architecture
