@@ -126,11 +126,9 @@ These instructions will get you a copy of our project up and running on your loc
 
 ### Software Prerequisites
 
-```
 1) [Node Red](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture)
 2) [IBM Watson IOT](https://www.ibm.com/cloud/watson-iot-platform)
 3) [IBM Cloud Machine Learning](https://www.ibm.com/cloud/machine-learning)
-```
 
 
 
@@ -140,8 +138,33 @@ A step by step series of examples that tell you how to get a development environ
 
 **Node Red**
 
+Setting up node-red [locally](https://nodered.org/docs/getting-started/local):
+To install Node-RED locally you will need a supported version of [Node.js](https://nodered.org/docs/faq/node-versions).
+
+- On mac:
 ```
+sudo npm install -g --unsafe-perm node-red
+```
+
+- On windows:
+Open command prompt and check if Node.js and npm are installed correctly
+```
+node --version && npm --version
+```
+Then install Node-RED
+```
+npm install -g --unsafe-perm node-red
+```
+
+Running Node-RED:
+Go to command prompt, then
+```
+node-red
+```
+Then, go to your web browser and type in localhost:1880
+
 Nodes to install:
+```
 - node-red-contrib-scx-ibmiotapp
 - node-red-node-mysql
 ```
