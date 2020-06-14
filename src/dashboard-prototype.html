@@ -1,0 +1,295 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    
+    html {
+    font-family: Arial;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+  } 
+    
+  h2 {
+    font-weight: bold;
+    color: black;
+    margin: 1%;  
+    font-size: 50px;
+  }
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #7CAAF9;
+    color: black;
+    font-size: 30px;
+  }
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+</style>
+
+<!-- -----------------------------HTML------------------------------ -->
+<!-- THIS IS THE HEADER -->
+    
+<div class="header">
+  <h1>LIFEWATCH DASHBOARD</h1>
+  <p>Statuses of Active Personnel</p>
+</div>
+
+<h2 style = 'text-align: left'>Team 1</h2>
+
+<!-- THIS IS THE PROFILE CARD -->
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Ask Jamie.png" alt="Jamie" style="width: 75%">
+      <div>
+        <span class="dht-labels">Name:</span>
+        <span id="name">%NAME%</span>
+      </div>
+      
+      <div>    
+      <span class="dht-labels">Title:</span>
+      <span id="title">%TITLE%</span>
+      </div>
+          
+      <div>
+      <span class="dht-labels">Team:</span>
+      <span id="title">%TEAM%</span>
+      </div>
+          
+      <div>      
+      <span class="dht-labels">Status:</span>    
+      <span id="status">%STATUS%</span>
+      </div>
+        
+      </div>      
+    <div class="flip-card-back">
+      
+      <p class="dht-labels">Name:</p> 
+      <p id="name">%NAME%</p> 
+      
+      <p class="dht-labels">Time:</p>
+      <p id="time">%TIME%</p>
+        
+      <p class="dht-labels">HRV:</p>
+      <p id="hrv">%HRV%</p>
+        
+      <p class="dht-labels">Temperature:</p>  
+      <p id="temperature">%TEMPERATURE%</p>  
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+//-------------------------------SCRIPT-----------------------------------------
+    
+// THIS IS TO GET ALL THE VALUES FOR EACH OF THE VARIABLES OK 
+
+// GETTING VALUE FOR NAME
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("name").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/name", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR TITLE
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("title").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/title", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR TEAM
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("team").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/team", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR STATUS
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("status").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/status", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR TIME
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("time").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/time", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR HRV
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("hrv").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/hrv", true);
+  xhttp.send();
+}, 10000 ) ;
+//--------------------------------------------------------------------------
+// GETTING VALUE FOR TEMPERATURE
+setInterval(function ( ) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("temperature").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/temperature", true);
+  xhttp.send();
+}, 10000 ) ;
+
+//--------------------------------------------------------------------------
+
+// THIS FUNCTION WILL NOW REPLACE OUR VALUES WE GOT FROM THE REQUEST TO THE DASHBOARD
+// WE ARE REPLACING THE PLACEHOLDER VALUES HERE WITH THE ACTUAL VALUES BY CHECKING FOR THE STRING
+    
+String processor(const String& var){
+  //Serial.println(var);
+  if(var == "TEMPERATURE"){
+    return read(IBMSERVER)Temperature();
+  }
+  else if(var == "HRV"){
+    return read(IBMSERVER)HRV();
+  }
+  else if(var == "TIME"){
+    return read(IBMSERVER)Time();
+  }
+  else if(var == "NAME"){
+    return read(IBMSERVER)Name();
+  }
+  else if(var == "TITLE"){
+    return read(IBMSERVER)Title();
+  }
+  else if(var == "STATUS"){
+    return read(IBMSERVER)Status();
+  }
+  else if(var == "TEAM"){
+    return read(IBMSERVER)Team();
+  }
+  return String();
+}
+
+//--------------------------------------------------------------------------
+
+// THIS ONE INITIALIZES THE PLATFORM?
+//(IBM PLATFORM).begin();
+
+WiFi.begin(ssid, password);
+
+server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/html", index_html, processor);
+});
+server.on("/temperature", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Temperature().c_str());
+});
+server.on("/name", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Name().c_str());
+});
+server.on("/title", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Title().c_str());
+});
+server.on("/status", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Status().c_str());
+});
+server.on("/hrv", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)HRV().c_str());
+});
+server.on("/time", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Time().c_str());
+});
+server.on("/team", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Team().c_str());
+});
+
+server.begin();
+
+void loop(){
+
+}
+    
+</script>
