@@ -20,7 +20,7 @@ LIFEWATCH is based on these features:
 
 1. [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
 2. [IBM Cloud](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-cloud)
-2. IBM IoT Platform
+2. [IBM IoT Platform](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-iot-platform)
 3. [Node-RED](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#node-red)
 4. Dashboard
 
