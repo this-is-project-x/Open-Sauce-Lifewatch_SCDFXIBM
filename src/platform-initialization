@@ -1,1 +1,37 @@
+// THIS ONE INITIALIZES THE PLATFORM?
+//(IBM PLATFORM).begin();
 
+WiFi.begin(ssid, password);
+
+server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/html", index_html, processor);
+});
+server.on("/temperature", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Temperature().c_str());
+});
+server.on("/name", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Name().c_str());
+});
+server.on("/title", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Title().c_str());
+});
+server.on("/status", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Status().c_str());
+});
+server.on("/hrv", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)HRV().c_str());
+});
+server.on("/time", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Time().c_str());
+});
+server.on("/team", HTTP_GET, [](AsyncWebServerRequest *request){
+  request->send_P(200, "text/plain", read(IBMSERVER)Team().c_str());
+});
+
+server.begin();
+
+void loop(){
+
+}
+    
+</script>
