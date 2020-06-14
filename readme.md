@@ -19,10 +19,9 @@ However, the manual nature of this practice leads to extra manpower demands, and
 LIFEWATCH is based on these features:
 
 1. [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
-2. [IBM Cloud](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-cloud)
 2. [IBM IoT Platform](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-iot-platform)
 3. [Node-RED](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#node-red)
-4. Dashboard
+4. [Dashboard](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#dashboard)
 
 ![architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/architecture.jpg)
 
@@ -74,7 +73,7 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 (Insert Architecture Overview)
 
-( attached picture )
+![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
 
 
@@ -82,9 +81,21 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Hardware: 
 
-- Wearable Sensor
-  - (Components)
+- External Sensors
+  - MAX6675 Cold-Junction-Compensated K-Thermocoupleto-Digital Converter
+  - Humidity and Temperature Sensor DHT11
+  
+- Internal Sensors
+  - MAX30100 Pulse Oximeter and Heart Rate Sensor
+  - Humidity and Temperature Sensor DHT11
+  - LMD35DZ
 
+- Internal Mechanism
+  - ROB-08449
+
+- Charging Mechanism
+  - Lithium Ion Polymer Battery - 3.7V 100mAh
+  - Adafruit Micro LiPo - USB LiPoly Charger
 
 
 Cloud:
@@ -175,25 +186,10 @@ Give an example
 
 
 
-
-
-## Live Demo
-
-To understand how our product is done, please watch this live demo.
-
-(Attach video here)
-
-( attach video ) - this section is not compulsory, can cancel if not enough time.
-
-
-
-
-
 ## Built With
 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensor (rephrase)
 - [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data (rephrase)
-- [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service/) - Used to connect the data to the dashboard (rephrase)
 
 
 
@@ -211,21 +207,21 @@ Please read [CONTRIBUTING.md](https://github.com/this-is-project-x/Open-Sauce-Li
 
 **LIFEWATCH currently is working on:**
 
-- ABC
-- DEF
-- GHI
+- Collecting the humidity and temperature of both the suit and the environment, as well as the heart rate of the firefighters
+- Using the data to train and improve our machine learning model to better predict when to rotate the firefighters
+- Building up a database for analyzing firefighters' performance during missions and trainings
+- Testing the integrity of the sensors under extreme conditions
 
 **LIFEWATCH is planning to work on:**
 
-- 123
-- 456
-- 789
+- Exploring additional hardware options to improve the funcationality and performance of the devices
+- Monitoring other types of data using additional sensors or wearables
+- Improve the type and volume of information available in the dashboard
 
 **LIFEWATCH will eventually work on:**
 
-- 123
-- 456
-- 789
+- Wider distribution of LIFEWATCH to other forces in Singapore (i.e. SAF, SPF and RSN)
+- Explore possibility of having an offline system
 
 **FINAL GOALS:** Roll out LIFEWATCH to entire SCDF as a valuable and effective personnel management platform.
 
