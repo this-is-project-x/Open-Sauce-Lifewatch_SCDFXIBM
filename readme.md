@@ -81,9 +81,21 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Hardware: 
 
-- Wearable Sensor
-  - (Components)
+- External Sensors
+  - MAX6675 Cold-Junction-Compensated K-Thermocoupleto-Digital Converter
+  - Humidity and Temperature Sensor DHT11
+  
+- Internal Sensors
+  - MAX30100 Pulse Oximeter and Heart Rate Sensor
+  - Humidity and Temperature Sensor DHT11
+  - LMD35DZ
 
+- Internal Mechanism
+  - ROB-08449
+
+- Charging Mechanism
+  - Lithium Ion Polymer Battery - 3.7V 100mAh
+  - Adafruit Micro LiPo - USB LiPoly Charger
 
 
 Cloud:
