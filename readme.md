@@ -150,14 +150,11 @@ Nodes to install:
 
 **IBM Watson IOT**
 
-```
 Register the new devices to the platform and create a connection between the IoT platform and the Node-RED application.
-```
+
 **IBM Cloud Machine Learning**
 
-```
 [Create an autoAI experiment](https://iraangeles-ibm.github.io/SCDF-INNOVATION-CHALLENGE/Workshop_Watsion_Studio/AutoAI.html)
-```
 
 
 ## Running Tests
