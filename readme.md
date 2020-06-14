@@ -18,11 +18,11 @@ However, the manual nature of this practice leads to extra manpower demands, and
 
 LIFEWATCH is based on these features:
 
-1. [The sensor](throw the link of the readme)
+1. [Sensors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#sensors)
+2. [IBM Cloud](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#ibm-cloud)
 2. IBM IoT Platform
 3. Node-RED
-4. IBM Cloud Kubernetes Service
-5. Dashboard
+4. Dashboard
 
 ![architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/architecture.jpg)
 
