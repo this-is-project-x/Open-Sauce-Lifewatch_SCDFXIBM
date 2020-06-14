@@ -168,6 +168,7 @@ Nodes to install:
 ```
 - node-red-contrib-scx-ibmiotapp
 - node-red-node-mysql
+- node-red-contrib-db2
 ```
 
 **IBM Watson IOT**
