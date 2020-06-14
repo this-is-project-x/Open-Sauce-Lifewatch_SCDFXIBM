@@ -73,7 +73,7 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 (Insert Architecture Overview)
 
-( attached picture )
+![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
 
 
