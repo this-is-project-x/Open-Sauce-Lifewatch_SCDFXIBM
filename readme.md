@@ -114,7 +114,7 @@ Client Frontend:
 
 ### Component Details
 
-A step by step understanding of the different component details can be found in [solution.md]((https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solutions:)
+A step by step understanding of the different component details can be found in [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solutions:)
 
 
 
