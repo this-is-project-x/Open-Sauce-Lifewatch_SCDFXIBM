@@ -172,25 +172,10 @@ Give an example
 
 
 
-
-
-## Live Demo
-
-To understand how our product is done, please watch this live demo.
-
-(Attach video here)
-
-( attach video ) - this section is not compulsory, can cancel if not enough time.
-
-
-
-
-
 ## Built With
 
 - [IBM IoT Platform](https://www.ibm.com/internet-of-things/solutions/iot-platform/watson-iot-platform) - Used to collect and capture data from the sensor (rephrase)
 - [Node-RED](https://nodered.org/) - Used to run a custom machine learning algorithm on the collected data (rephrase)
-- [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service/) - Used to connect the data to the dashboard (rephrase)
 
 
 
