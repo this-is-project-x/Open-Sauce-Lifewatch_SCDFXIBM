@@ -39,7 +39,6 @@ LIFEWATCH is based on these features:
 - [Running Tests](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#running-tests)
 - [Contributing](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#contributing)
 - [Team Name and Authors](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#team-name-and-authors)
-- [License](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#license)
 - [Acknowledgments](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/readme.md#acknowledgements)
 
 
@@ -115,7 +114,7 @@ Client Frontend:
 
 ### Component Details
 
-A step by step understanding of the different component details.
+A step by step understanding of the different component details can be found in [solution.md]((https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-solutions:)
 
 
 
@@ -267,13 +266,6 @@ Open Sauce
 * Jeremy Ong Keng Chuan
 
 
-
-
-
-
-## License
-
-This project is licensed under the XXX License - see the LICENSE.md file for details. (whatever it is)
 
 
 
