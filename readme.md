@@ -180,18 +180,20 @@ Register the new devices to the platform and create a connection between the IoT
 
 ## Running Tests
 
-Explain how to run the automated tests for this system
+Before you can run tests, you need to set up a MySQL database server locally.
 
+1) Go to [phpmyadmin.net](https://docs.phpmyadmin.net/en/latest/setup.html)
+2) Click on download
+3) Go to localhost/phpmyadmin
+4) Set up your own local database
 
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
+1) After setting up Node-RED locally, go to the node-red folder, and copy flows_staging.json.
+2) Click on the hamburger menu -> import -> paste in the json sript -> import to new flow -> Import
+3) Click on the MySql Node and configure your new MySQL database
+4) Obtain your iam key from IBM Machine Learning to feed into the function before the http request
+5) Update your iam key under the key "iam token"
+6) Deploy the test by clicking on deploy
+7) Click on timestamp to run the test
 
 
 ### And coding style tests
