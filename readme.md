@@ -71,8 +71,6 @@ Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewa
 
 Please read [solution.md](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/solution.md#our-architecture) for a comprehensive explanation.
 
-(Insert Architecture Overview)
-
 ![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
 
@@ -102,9 +100,7 @@ Cloud:
 
 - IBM Watson IoT Platform - Gathers data from the wearables
 - Node-RED - Facilitates data transfer between the ML models and the IoT platform
-- IBM Kubernetes Service - Container Service for rapid delivery of applications 
 
-(insert pictures)
 
 
 
