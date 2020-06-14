@@ -170,6 +170,8 @@ Nodes to install:
 - node-red-node-mysql
 - node-red-contrib-db2
 ```
+To obtain IAM Token:
+You can follow the tutorial listed here: https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html
 
 **IBM Watson IOT**
 
