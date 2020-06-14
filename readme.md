@@ -208,21 +208,21 @@ Please read [CONTRIBUTING.md](https://github.com/this-is-project-x/Open-Sauce-Li
 
 **LIFEWATCH currently is working on:**
 
-- ABC
-- DEF
-- GHI
+- Collecting the humidity and temperature of both the suit and the environment, as well as the heart rate of the firefighters
+- Using the data to train and improve our machine learning model to better predict when to rotate the firefighters
+- Building up a database for analyzing firefighters' performance during missions and trainings
+- Testing the integrity of the sensors under extreme conditions
 
 **LIFEWATCH is planning to work on:**
 
-- 123
-- 456
-- 789
+- Exploring additional hardware options to improve the funcationality and performance of the devices
+- Monitoring other types of data using additional sensors or wearables
+- Improve the type and volume of information available in the dashboard
 
 **LIFEWATCH will eventually work on:**
 
-- 123
-- 456
-- 789
+- Wider distribution of LIFEWATCH to other forces in Singapore (i.e. SAF, SPF and RSN)
+- Explore possibility of having an offline system
 
 **FINAL GOALS:** Roll out LIFEWATCH to entire SCDF as a valuable and effective personnel management platform.
 
