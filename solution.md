@@ -228,7 +228,7 @@ Our IoT platform will collect the necessary data from the sensors.
 
 ## Our Architecture
 
-(Insert how the entire architecture works with each other)  
+![complex architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/complex%20architecture.png)
 
 
 
