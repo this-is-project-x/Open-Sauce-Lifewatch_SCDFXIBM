@@ -24,7 +24,7 @@ LIFEWATCH is based on these features:
 4. IBM Cloud Kubernetes Service
 5. Dashboard
 
-(INSERT PICTURE HERE)
+![architecture](https://github.com/this-is-project-x/Open-Sauce-Lifewatch_SCDFXIBM/blob/master/images/architecture.jpg)
 
 
 
